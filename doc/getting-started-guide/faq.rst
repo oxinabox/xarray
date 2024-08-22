@@ -136,7 +136,7 @@ With xarray, we draw a firm line between labels that the library understands
 example, we do not automatically interpret and enforce units or `CF
 conventions`_. (An exception is serialization to and from netCDF files.)
 
-.. _CF conventions: https://cfconventions.org/latest.html
+.. _CF conventions: https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html
 
 An implication of this choice is that we do not propagate ``attrs`` through
 most operations unless explicitly flagged (some methods have a ``keep_attrs``
